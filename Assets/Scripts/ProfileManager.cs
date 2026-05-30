@@ -141,6 +141,24 @@ public class ProfileManager : MonoBehaviour
         }
     }
 
+    [SerializeField]private GameObject profileCard;
+    [SerializeField]private Transform leaderBoardParent;
+    public void SetLeaderBoard()
+    {
+        foreach (Transform t in leaderBoardParent)
+            Destroy(t.gameObject);
+        
+        var p = profiles;
+        p.Sort((a, b) => b.score.CompareTo(a.score));
+        foreach (var profile in p)
+        {
+            GameObject go = Instantiate(profileCard, leaderBoardParent);
+            go.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = profile.score.ToString();
+            go.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = profile.playerName;
+        }
+    }
+
+
     private void Save()
     {
         try
@@ -160,5 +178,5 @@ public class ProfileManager : MonoBehaviour
 public class PlayerData
 {
     public string playerName;
-    public int    score;
+    public int score;
 }

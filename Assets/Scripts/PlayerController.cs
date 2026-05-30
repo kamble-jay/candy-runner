@@ -164,6 +164,7 @@ public class PlayerController : MonoBehaviour
     {
         if (IsShielded) { ConsumeShield(); return; }
 
+        ProfileManager.Instance?.SetLeaderBoard();
         StopAllPowerUps();
         if (IsBoosted) ObjectPoolManager.instancePool.RestoreSpeed(_baseSpeed);
         IsShielded = false;

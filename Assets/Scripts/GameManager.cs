@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -10,18 +11,20 @@ public class GameManager : MonoBehaviour
     public System.Action<int> OnScoreChanged;
     public System.Action OnGameOver;
     
-    public int Score     { get; private set; }
-    public int BestScore { get; private set; }
-    public bool IsPlaying { get; private set; }
+    public int Score{ get; private set; }
+    public int BestScore{ get; private set; }
+    public bool IsPlaying{ get; private set; }
     
     [HideInInspector] public PlayerController player;
-    [HideInInspector] public Button           playButton;
+    [HideInInspector] public Button playButton;
 
     [Header("Persistent UI (lives on the DontDestroyOnLoad canvas)")]
     public GameObject loadingScreen;
     public Slider progressBar;
     public GameObject gameOverPanel;
     public TextMeshProUGUI finalScoreText;
+    
+    public Transform leaderBoardParent;
     
     private void Awake()
     {
@@ -103,7 +106,6 @@ public class GameManager : MonoBehaviour
     {
         if (gameOverPanel) gameOverPanel.SetActive(visible);
     }
-
     private async void OnPlayPressed()
     {
         if (ProfileManager.Instance == null || ProfileManager.Instance.currentProfile == null)
