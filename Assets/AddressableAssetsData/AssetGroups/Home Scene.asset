@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Home Scene
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Home Scene
+  m_GUID: e3f8394acb88b22429bc417cda0f88cc
+  m_SerializeEntries:
+  - m_GUID: 044fefb03e5b9404ea61fffbacf13d11
+    m_Address: Assets/Sprite/Correct Wrong Profile 1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - HomeScene
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 11b35fa70230a914c9b25ae6ecfdca11
+    m_Address: Assets/Sprite/images.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - HomeScene
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d7363d369e91cd479e93aecbc700384
+    m_Address: Assets/Sprite/Name.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - HomeScene
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 460864e9a4825c04cbeb6127e65d863f
+    m_Address: Assets/Sprite/Play Button.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - HomeScene
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 716b5b19916945a4786671f5ac85cbc9
+    m_Address: Assets/Sprite/Profile Card.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - HomeScene
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9bf89969d6e903c478b70033fb71b783
+    m_Address: Assets/Scene/HomeScreen.unity
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - HomeScene
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a980987ed01a6c34bb1b65b482c55b72
+    m_Address: Assets/Sprite/Edit Button.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - HomeScene
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf1884035b07e4149ac7802b5ce1b447
+    m_Address: Assets/Prefabs/Profile Board.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - HomeScene
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d504ef255b919094d84001fc36995534
+    m_Address: Assets/Sprite/Default Icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - HomeScene
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 9e7e4c99834ab3146a30f9e64b2d4eff, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 9e6207f0163c62f439f009f965051a54, type: 2}
+    - {fileID: 11400000, guid: 990ffc055b36ac9448ad15a270ee24f7, type: 2}

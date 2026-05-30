@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Common
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Common
+  m_GUID: a5995b70abcd6e44196b7202d7151b46
+  m_SerializeEntries:
+  - m_GUID: 3468b0a499b5a354186bc1897468e565
+    m_Address: Assets/Sprite/Shield.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 649156a3299aae54f939ca9afb2b48e9
+    m_Address: Assets/Sprite/building-2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7aa43df9d11b8ac428546e92bfec4e86
+    m_Address: Assets/Sprite/back-building-2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81773e57cb87f3644a4d66d8a86e26b6
+    m_Address: Assets/Sprite/cloud-2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8573c3c817b5b2646bbf6ff4124c5191
+    m_Address: Assets/Sprite/white-square.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ee8c66e525540d42b2a36bbd86dce5c
+    m_Address: Assets/Sprite/cloud-1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a68219c007927cf47bd107b7370e1c3c
+    m_Address: Assets/Sprite/Booster.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: adf6dbabd128cd84c9123f4376a53c44
+    m_Address: Assets/Sprite/Home Button.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bdf82afd67325b34fbdcbb1a3d3cc5fa
+    m_Address: Assets/Sprite/sky.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c378f44fd5d00f1408cd54d1713640c1
+    m_Address: Assets/Sprite/Game Over.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ccc0a9e8505e56e499aab7d153c7c19a
+    m_Address: Assets/Sprite/Restart Button.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4dd01763f76d884796431da8b77125b
+    m_Address: Assets/Sprite/building-1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f7c6d56a9a7b0b741a1e0b7a04ccf895
+    m_Address: Assets/Sprite/back-building-1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Common
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 9e7e4c99834ab3146a30f9e64b2d4eff, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 4c6218f08d5534846a96b8c4bf9669c3, type: 2}
+    - {fileID: 11400000, guid: 9c7b443d0b8ceeb4e8fb8e705b84e5d1, type: 2}

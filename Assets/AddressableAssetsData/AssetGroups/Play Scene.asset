@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Play Scene
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Play Scene
+  m_GUID: 7b5f67a1bb4c528419caeb451df33869
+  m_SerializeEntries:
+  - m_GUID: 12ef7d8729fac5447adba4258275c4cd
+    m_Address: Assets/Captain kidd/ck_rooftop_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PlayScene
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a2826327579a37489f3798804233388
+    m_Address: Assets/Prefabs/Shield.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PlayScene
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a65237517ba88e4ca8a19c94f7e1627
+    m_Address: Assets/Prefabs/ac-unit.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PlayScene
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3ccef2d04fc88d94ba62fcb79d21693d
+    m_Address: Assets/Sprite/Candy_01.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PlayScene
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 519316ced84ac924da8bb3f8b56cae9f
+    m_Address: Assets/Sprite/Score Card.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PlayScene
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 556892c447d63334c9b50a93bcee31aa
+    m_Address: Assets/Prefabs/Booster.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PlayScene
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 57104107ea8660c4f8c7bb1885a4fa95
+    m_Address: Assets/Sprite/tower.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PlayScene
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a96248edc59b0249adf90c185152b22
+    m_Address: Assets/Sprite/ac-unit.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PlayScene
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62d6f57788b0b734588b1e14d7af68c4
+    m_Address: Assets/Prefabs/Candy_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PlayScene
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 874fb75c3648f234ba0174ef98fd97b3
+    m_Address: Assets/Material/_BoosIndicstort.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PlayScene
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7d73c96b13151b4b889d7145e9db91a
+    m_Address: Assets/Scene/Play Scene.unity
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PlayScene
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c86176a7399397341b15a74e895359d2
+    m_Address: Assets/Prefabs/Character.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PlayScene
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec24eb267b51f0e42839703bb64c200b
+    m_Address: Assets/Sprite/Candy_02.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PlayScene
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3a85e2229aeac24e9f424cb08748839
+    m_Address: Assets/Prefabs/Candy_02.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PlayScene
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f80685b77bc520345a2692df1f9f4a86
+    m_Address: Assets/Prefabs/Tower.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PlayScene
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 9e7e4c99834ab3146a30f9e64b2d4eff, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 272b2f4592a554549839142696a95771, type: 2}
+    - {fileID: 11400000, guid: 1a8b0373f4ebaf440bf7e5d705036a4e, type: 2}
